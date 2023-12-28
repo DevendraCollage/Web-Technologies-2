@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pyramid Program</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // Write a program to print the pattern.
+      /*
+       *
+       * *
+       * * *
+       * * * *
+       * * * * *
+       */
+      let num = prompt("Enter The Number Here : ");
+      num = Number.parseInt(num);
+      for (let i = 0; i <= num; i++) {
+        for (let j = 0; j < i; j++) {
+          document.write("* ");
+        }
+        document.write("<br/>");
+      }
+    </script>
+  </body>
+</html>
